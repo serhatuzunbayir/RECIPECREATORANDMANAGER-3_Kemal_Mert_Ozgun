@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Drawing;
 
 namespace RecipeCreator
 {
@@ -52,6 +54,18 @@ namespace RecipeCreator
             return fileNameCollector;
         }
 
+
+        public List<string> getImagesFilesWithoutExtension()
+        {
+            List<string> fileNameCollector = new List<string>();
+            string[] fileInfo = Directory.GetFiles(@"..\..\Menu\Soups\Img");
+            foreach (string fileName in fileInfo)
+            {
+
+                fileNameCollector.Add(Path.GetFileNameWithoutExtension(fileName));
+            }
+            return fileNameCollector;
+        }
 
 
 
@@ -107,6 +121,7 @@ namespace RecipeCreator
 
 
         }
+      
 
 
     }

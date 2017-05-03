@@ -15,6 +15,7 @@ namespace RecipeCreator
     {
         Dictionary<string, List<string>> fileNameAndContentIngredientCollector;
         Dictionary<string, List<string>> fileNameAndContentRecipeCollector;
+     
         public Form1()
         {
             InitializeComponent();
@@ -25,6 +26,7 @@ namespace RecipeCreator
             fileNameAndContentIngredientCollector = fileOp.getIngredientsFileContents(filesInfoIngredients);
             fileNameAndContentRecipeCollector = fileOp.getRecipesFileContents(filesInfoRecipes);
             List<string> keyList = new List<string>(fileNameAndContentIngredientCollector.Keys);
+           
 
             foreach (string key in keyList)
             {
@@ -39,11 +41,13 @@ namespace RecipeCreator
         {
             txtSoupIngredients.Clear();
             txtSoupRecipes.Clear();
+            txtImgSoupList.Clear();
             string ingredients = "";
             string recipe = "";
             int sentenceCounterIngredient = fileNameAndContentIngredientCollector[lstSoup.SelectedItem.ToString()].Count;
             int sentenceCounterRecipe = fileNameAndContentRecipeCollector[lstSoup.SelectedItem.ToString()].Count;
 
+           
             for (int i = 0; i < sentenceCounterIngredient; ++i)
             {
                 ingredients += fileNameAndContentIngredientCollector[lstSoup.SelectedItem.ToString()][i];
@@ -58,6 +62,15 @@ namespace RecipeCreator
                
             txtSoupIngredients.Text = ingredients;
             txtSoupRecipes.Text = recipe;
+            DataFormats.Format dataFormat = DataFormats.GetFormat(DataFormats.Bitmap);
+           Clipboard.SetImage(Image.FromFile(@"..\..\Menu\Soups\Img\" + lstSoup.SelectedItem.ToString() + ".jpg"));
+            txtImgSoupList.Paste(dataFormat);
+
+
+            
+            
+
+
 
         }
     }

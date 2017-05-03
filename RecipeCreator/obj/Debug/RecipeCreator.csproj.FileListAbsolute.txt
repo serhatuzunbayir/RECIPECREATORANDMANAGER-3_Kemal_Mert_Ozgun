@@ -1,0 +1,9 @@
+C:\Users\C505\Desktop\C#\RecipeCreator\bin\Debug\RecipeCreator.exe.config
+C:\Users\C505\Desktop\C#\RecipeCreator\bin\Debug\RecipeCreator.exe
+C:\Users\C505\Desktop\C#\RecipeCreator\bin\Debug\RecipeCreator.pdb
+C:\Users\C505\Desktop\C#\RecipeCreator\obj\Debug\RecipeCreator.csprojResolveAssemblyReference.cache
+C:\Users\C505\Desktop\C#\RecipeCreator\obj\Debug\RecipeCreator.Form1.resources
+C:\Users\C505\Desktop\C#\RecipeCreator\obj\Debug\RecipeCreator.Properties.Resources.resources
+C:\Users\C505\Desktop\C#\RecipeCreator\obj\Debug\RecipeCreator.csproj.GenerateResource.Cache
+C:\Users\C505\Desktop\C#\RecipeCreator\obj\Debug\RecipeCreator.exe
+C:\Users\C505\Desktop\C#\RecipeCreator\obj\Debug\RecipeCreator.pdb
