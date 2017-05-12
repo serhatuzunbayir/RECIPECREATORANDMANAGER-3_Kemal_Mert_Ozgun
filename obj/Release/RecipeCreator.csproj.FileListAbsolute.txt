@@ -1,0 +1,10 @@
+C:\Users\Mert\Desktop\RECIPECREATORANDMANAGER-3_Kemal_Mert_Ozgun-master\RecipeCreator\bin\Release\RecipeCreator.exe.config
+C:\Users\Mert\Desktop\RECIPECREATORANDMANAGER-3_Kemal_Mert_Ozgun-master\RecipeCreator\bin\Release\RecipeCreator.exe
+C:\Users\Mert\Desktop\RECIPECREATORANDMANAGER-3_Kemal_Mert_Ozgun-master\RecipeCreator\bin\Release\RecipeCreator.pdb
+C:\Users\Mert\Desktop\RECIPECREATORANDMANAGER-3_Kemal_Mert_Ozgun-master\RecipeCreator\bin\Release\nunit.framework.dll
+C:\Users\Mert\Desktop\RECIPECREATORANDMANAGER-3_Kemal_Mert_Ozgun-master\RecipeCreator\bin\Release\nunit.framework.xml
+C:\Users\Mert\Desktop\RECIPECREATORANDMANAGER-3_Kemal_Mert_Ozgun-master\RecipeCreator\obj\Release\RecipeCreator.Form1.resources
+C:\Users\Mert\Desktop\RECIPECREATORANDMANAGER-3_Kemal_Mert_Ozgun-master\RecipeCreator\obj\Release\RecipeCreator.Properties.Resources.resources
+C:\Users\Mert\Desktop\RECIPECREATORANDMANAGER-3_Kemal_Mert_Ozgun-master\RecipeCreator\obj\Release\RecipeCreator.csproj.GenerateResource.Cache
+C:\Users\Mert\Desktop\RECIPECREATORANDMANAGER-3_Kemal_Mert_Ozgun-master\RecipeCreator\obj\Release\RecipeCreator.exe
+C:\Users\Mert\Desktop\RECIPECREATORANDMANAGER-3_Kemal_Mert_Ozgun-master\RecipeCreator\obj\Release\RecipeCreator.pdb
